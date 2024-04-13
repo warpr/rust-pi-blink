@@ -1,0 +1,3 @@
+#!/bin/sh
+
+/opt/homebrew/Cellar/arm-none-eabi-binutils/2.41/arm-none-eabi/bin/objcopy -O binary target/armv7a-none-eabi/debug/rust-pi-blink ./sdcard/kernel7.img

@@ -1,0 +1,4 @@
+#!/bin/sh
+
+/opt/homebrew/Cellar/arm-none-eabi-binutils/2.41/arm-none-eabi/bin/objdump -D target/armv7a-none-eabi/debug/rust-pi-blink | less
+
